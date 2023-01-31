@@ -95,6 +95,17 @@ GitHub 使用方法：push, pull 實作
 <img src="./pushCommand.png"  />
 
 ##### 如果要將現有檔案推上，需要將欲推上檔案先commit
+```bash
+$ git add . 
+$ git commit -m "first commit"
+$ git push -u origin main
+```
+看到以下畫面就代表成功上傳！
+<img src="./push.png"  />
+
+接下來若要將Github上的專案拉到本地端，只需打`git pull origin main`
+<img src="./pull.png"  />
+如果檔案已是最新版，會長這樣。
 
 
 GitFlow 介紹
